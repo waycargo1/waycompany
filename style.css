@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-image:url(back.jpeg);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.profile-img {
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 43px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.btn:hover, .btn:active {
+    background-color: #e2e6ea;
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #0056b3;
+}
